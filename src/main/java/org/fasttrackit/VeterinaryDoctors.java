@@ -5,7 +5,7 @@ public class VeterinaryDoctors {
     int age;
     double theExperienceAge;
     double rating;
-    String color;
+    String colorHair;
     String specialization;
     double height;
     double weight;

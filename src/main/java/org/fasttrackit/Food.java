@@ -1,6 +1,6 @@
 package org.fasttrackit;
 
-public class FoodForAnimals {
+public class Food {
     String name;
     double price;
     double amount;

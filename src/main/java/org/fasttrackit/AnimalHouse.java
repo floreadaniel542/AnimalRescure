@@ -5,4 +5,5 @@ public class AnimalHouse {
     String color;
     double height;
     double width;
+    double lenght;
 }
