@@ -1,8 +1,7 @@
 package org.fasttrackit;
 
-public class PlayGrounds {
-    String name;
+public class PlayGrounds extends AnimalHouse {
+
     String favoritePlayGroundsName;
-    double lenght;
-    double width;
+
 }

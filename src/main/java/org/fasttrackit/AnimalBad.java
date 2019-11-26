@@ -1,8 +1,8 @@
 package org.fasttrackit;
 
-public class AnimalBad {
-    String name;
-    String color;
-    double height;
+public class AnimalBad extends  AnimalHouse{
+
     double widht;
+
+
 }

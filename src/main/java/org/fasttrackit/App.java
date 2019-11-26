@@ -14,6 +14,9 @@ public class App {
         dog.skin = "Hair";
         dog.height = 0.5;
         dog.weight = 13.7;
+        dog.mood = " ";
+        dog.healthCondition = " ";
+        dog.hunger = ("I need more food " );
 
         System.out.println(" He is " + dog.name + ". " + " He have " + dog.age + " year " + " and your color is " + dog.color + ".");
 
@@ -22,6 +25,7 @@ public class App {
         adoptive1.age = 18;
         adoptive1.colorHair = "Black";
         adoptive1.money = 3000;
+        adoptive1.mood = " ";
 
         dog.adoptive = adoptive1;
 
@@ -60,6 +64,7 @@ public class App {
         veterinaryDoctors1.rating = 4.7;
         veterinaryDoctors1.theExperienceAge = 17;
         veterinaryDoctors1.weight = 83;
+        veterinaryDoctors1.mood = " ";
 
         dog.veterinaryDoctors = veterinaryDoctors1;
 

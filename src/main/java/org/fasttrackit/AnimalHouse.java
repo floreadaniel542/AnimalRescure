@@ -6,4 +6,5 @@ public class AnimalHouse {
     double height;
     double width;
     double lenght;
+
 }

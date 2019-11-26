@@ -12,9 +12,9 @@ public class Animal {
     String name;
     int age;
     String color;
-    double healthCondition;
-    double hunger;
-    double mood;
+    String healthCondition;
+    String hunger;
+    String mood;
     double height;
     double weight;
     int legs;
