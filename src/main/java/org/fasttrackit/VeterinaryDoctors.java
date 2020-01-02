@@ -9,4 +9,13 @@ public class VeterinaryDoctors extends Animal {
     double height;
     double weight;
 
+    public VeterinaryDoctors(){
+        age = 24;
+        name = null;
+    }
+
+
+    public VeterinaryDoctors(int age, String name) {
+        super(age, name);
+    }
 }

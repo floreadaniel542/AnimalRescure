@@ -1,5 +1,6 @@
 package org.fasttrackit;
 
+
 public class Animal {
     public Adoptive adoptive;
     public Food food;
@@ -20,5 +21,16 @@ public class Animal {
     int legs;
     String skin;
 
+    public Animal(){
+        age = 7;
+        name = null;
 
+    }
+
+
+    public Animal(int age,String name) {
+        this.age = age;
+        this.name = name;
+
+    }
 }
