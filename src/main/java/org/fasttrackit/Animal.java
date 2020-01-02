@@ -33,4 +33,11 @@ public class Animal {
         this.name = name;
 
     }
+
+
+
+    public java.lang.String toString() {
+        return "This animal's name is : " + this.name + " and he/she have" + this.age + " years old ";
+
+    }
 }

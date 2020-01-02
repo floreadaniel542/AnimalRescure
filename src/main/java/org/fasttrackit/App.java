@@ -17,8 +17,10 @@ public class App {
         dog.mood = " ";
         dog.healthCondition = " ";
         dog.hunger = ("I need more food " );
+        Animal B = new Animal();
 
         System.out.println(" He is " + dog.name + ". " + "  have " + dog.age + " year " + " and your color is " + dog.color + ".");
+        System.out.println(B);
 
         Adoptive adoptive1 = new Adoptive();
         adoptive1.name = "Alina";
