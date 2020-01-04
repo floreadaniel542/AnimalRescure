@@ -19,7 +19,8 @@ public class App {
         dog.hunger = ("I need more food " );
         Animal B = new Animal();
 
-        System.out.println(" He is " + dog.name + ". " + "  have " + dog.age + " year " + " and your color is " + dog.color + ".");
+        System.out.println(" He is " + dog.name + ". " + "  have " + dog.age + " year " + " and your color is "
+                + dog.color + ".");
         System.out.println(B);
 
         Adoptive adoptive1 = new Adoptive();
@@ -29,9 +30,12 @@ public class App {
         adoptive1.money = 3000;
         adoptive1.mood = " ";
 
+
+
         dog.adoptive = adoptive1;
 
         System.out.println("She is " + adoptive1.name + ", and  have a " + adoptive1.age + " years. ");
+
         System.out.println("She adopted Max because he seems very cute");
 
         Food food1 = new Food();
@@ -42,6 +46,8 @@ public class App {
         System.out.println(food1.stockAvailability);
         System.out.println(food1.stockRefill + " Every tuesday at four o'clock");
         System.out.println(food1.expirationDate);
+
+        adoptive1.feed(food1,2,4,true,dog,12.4);
 
         dog.food = food1;
 
