@@ -90,4 +90,12 @@ public class Adoptive extends Animal {
         }
 
     }
+
+    public double happiness(boolean happy,double reaction) {
+
+        System.out.println(name + " is very " + happy + " when " + reaction);
+
+        return reaction;
+
+    }
 }

@@ -17,6 +17,12 @@ public class App {
         dog.mood = " ";
         dog.healthCondition = " ";
         dog.hunger = ("I need more food " );
+        dog.happy = true;
+
+        dog.happiness(true,5);
+
+        System.out.println("Max is very happy : " + dog.happy);
+
         Animal B = new Animal();
 
         System.out.println(" He is " + dog.name + ". " + "  have " + dog.age + " year " + " and your color is "
@@ -48,6 +54,9 @@ public class App {
         System.out.println(food1.expirationDate);
 
         adoptive1.feed(food1,2,4,true,dog,12.4);
+
+        adoptive1.happiness(true,5);
+
 
         dog.food = food1;
 
@@ -116,7 +125,7 @@ public class App {
 
         dog.animalBad = animalBad1;
 
-        System.out.println("Max's bed is very comfortable for a dog");
+        System.out.println("Max's bed is very comfortable ");
 
 
 

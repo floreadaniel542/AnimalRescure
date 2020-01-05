@@ -20,6 +20,10 @@ public class Animal {
     double weight;
     int legs;
     String skin;
+    boolean happy;
+    double reaction;
+
+
 
     public Animal(){
         age = 7;
@@ -38,6 +42,15 @@ public class Animal {
 
     public java.lang.String toString() {
         return "This animal's name is : " + this.name + " and he/she have" + this.age + " years old ";
+
+    }
+
+    public double happiness(boolean happy,double reaction) {
+
+        System.out.println(name + " is very happy " + happy + " \n" +
+                "when it hits the tail of " + reaction);
+
+        return reaction;
 
     }
 }
